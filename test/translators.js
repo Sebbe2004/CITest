@@ -23,4 +23,9 @@ describe("Translators", function () {
             assert.strictEqual(toNormal(toRobber(input)), input)
         })
     })
+    describe("#toAllsprak", function () {
+        it("should work for empty string", function () {
+            assert.strictEqual(toAllsprak(""), "")
+        })
+    })
 })

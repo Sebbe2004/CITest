@@ -1,5 +1,5 @@
 import assert from "assert"
-import { toRobber, toNormal } from "./../src/translators.js"
+import { toRobber, toNormal, toAllsprak } from "./../src/translators.js"
 
 describe("Translators", function () {
     describe("#toRobber", function () {
